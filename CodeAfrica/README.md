@@ -35,7 +35,7 @@ This repository is the central database and backend structure for our organizati
 ---
 
 ## 📁 Project Structure
-
+```
 organization-database/
 │
 ├── backend/
@@ -50,7 +50,7 @@ organization-database/
 │ └── seed.sql
 │
 └── README.md
-
+```
 yaml
 Copy
 Edit
