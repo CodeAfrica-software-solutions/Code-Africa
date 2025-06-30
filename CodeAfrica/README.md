@@ -1,4 +1,3 @@
-🧠 Organization Database
 
 This repository is the central database and backend structure for our organization’s software ecosystem. Built with a focus on solving real-world problems through software, it supports projects involving business tools, education platforms, and research in software engineering and computer science.
 
@@ -24,8 +23,8 @@ This repository is the central database and backend structure for our organizati
 ### Backend
 
 - **Python**
-- **Flask** (for lightweight APIs)
-- **Django** (for full-stack backend features)
+- **Flask** 
+- **Django** 
 
 ### Database
 
@@ -67,56 +66,7 @@ Edit
 
 ---
 
-## 🛠️ Getting Started
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/organization-database.git
-cd organization-database
-Set Up the Backend
-Django:
-
-bash
-Copy
-Edit
-cd backend/django_app
-python manage.py migrate
-python manage.py runserver
-Flask:
-
-bash
-Copy
-Edit
-cd backend/flask_api
-flask run
-Set Up the Frontend
-bash
-Copy
-Edit
-cd frontend/react-ts-app
-npm install
-npm run dev
-🗃️ Database Setup
-Make sure PostgreSQL is installed and running.
-
-bash
-Copy
-Edit
-psql -U your_user -d your_db -f database/schema.sql
-psql -U your_user -d your_db -f database/seed.sql
-🔍 Example SQL Queries
-sql
-Copy
-Edit
--- Get all employees
-SELECT * FROM employees;
-
--- Get departments with more than 5 members
-SELECT department_name FROM departments
-JOIN employees ON departments.id = employees.department_id
-GROUP BY departments.id
-HAVING COUNT(*) > 5;
 
 🙋 Maintainer
 Built and maintained by Stephen Mutheu Muya, founder of CodeAfrica.
